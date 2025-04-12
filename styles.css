@@ -1,12 +1,19 @@
+
 body{
     background-color: black;
 }
 
+img{
+    width:32.69px;
+    height:28.95px;
+    top:32.03px;
+    left:129.52px
+}
 .navbar{
     background-color: white;
     align-items: center;
     width: 1435px;
-    height: 48px;
+    height: 20px;
     padding: 25px 0;
     text-align: right;
     position:fixed;
@@ -18,10 +25,11 @@ body{
 .navbar a{
     width:642px;
     height:25px;
-    top:32px;
+    top:50px;
     left:718px;
     text-decoration: none;
     margin: 0 16px;
+    margin-top:-40px;
     margin-right: 140px;
     margin-left: -30px;
     word-spacing: -2px;
@@ -29,7 +37,15 @@ body{
     font-size:18px;
     font-weight: bold;
 }
+.navbar a:hover{
+    color: #FCBC04;
+}
 .navbar h1{
     text-align: left;
-    margin-top:-18px;
+    margin-top:-30px;
+    font-size: 40px;
 }
+.day{
+    color:#FCBC04
+}
+
