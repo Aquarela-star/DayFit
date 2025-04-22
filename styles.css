@@ -57,39 +57,80 @@ img.logo {
      vertical-align: middle;  
 }
 .main {
-    padding-top: 100px; 
-    text-align: center;
+    padding-top: 120px; 
+    text-align:center;
 }
+.unidade{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;  
+    margin: 20px 20px 0 90px;
+    white-space: nowrap; 
+}
+
 p.p{
     color:white;
     font-size:30px;
-    margin-top:91px;
-    margin-left: 204px;
+    margin: 30px 20px 20px 0;
     width:589px;
-    height:41px;
+    height:50px;
 }
 
 h2.texto {
     color: #FBCC04;
     font-size: 40px;
-    height: 700px;
-    margin: 30px 0;
+    margin: 50px 0 60px 0;
+    text-align: center;
+    
 }
 
 button.botao1{
     color:white;
     font-size:20px;
     background-color: #FBCC04;
+    border-radius: 10px;
+    border:2px;
     width:300px;
     height:45px;
+    cursor:pointer;
+    margin-left: 90px;
+    margin-right: 10px;
+
+    
 }
 button.botao2{
     color:white;
     font-size: 20px;
     background-color: #FBCC04;
+    border-radius: 10px;
+    border:2px;
     width:300px;
     height:45px;
+    margin-left:91px;
+    margin-right: 10px;
+    
 }
+.titulo{
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+    margin:50px 300px 60px 0;
+    font-weight: 50;
+}
+.paragrafo{
+    color: white;
+    align-items: center;
+
+}
+.destaque{
+  font-weight: bold;
+}
+
+.destaquetitulo{
+    color: #FBCC04;
+}
+
 footer {
     text-align: center;
     padding: 20px;
