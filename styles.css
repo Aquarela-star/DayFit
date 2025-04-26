@@ -72,9 +72,10 @@ img.logo {
 p.p{
     color:white;
     font-size:30px;
-    margin: 30px 20px 20px 0;
+    margin: 30px 40px 20px 0;
     width:589px;
     height:50px;
+    
 }
 
 h2.texto {
@@ -113,15 +114,39 @@ button.botao2{
 }
 .titulo{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     font-size: 30px;
-    margin:50px 300px 60px 0;
-    font-weight: 50;
+    margin:60px 100px 70px 0;
+    font-weight: 30;
 }
 .paragrafo{
     color: white;
     align-items: center;
-
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap:60px;
+    margin:60px auto;
+    max-width:1100px;
+    padding:0 20px;
+}
+.Fotomain{
+    width:318px;
+    height: 547px;
+    margin-top: 150px;
+    margin-left: -80px;
+}
+.paragrafo1{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right:-90px;
+    max-width: 911px;
+}
+.paragrafo1 p{
+    margin-bottom: 20px;
+    font-size:23px;
+    line-height: 1.6;
 }
 .destaque{
   font-weight: bold;
@@ -134,4 +159,38 @@ button.botao2{
 footer {
     text-align: center;
     padding: 20px;
+    color: white;
+    margin-top: 100px;
 }
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    gap: 250px; /* Espaçamento entre os dois blocos */
+    margin-top: 50px;
+}
+
+.Informacoes, .Informacoes2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulocontatos {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    margin-bottom: 30px;
+}
+
+.logotelefone, .logozap {
+    width: 22px;
+    height: 22px;
+}
+
