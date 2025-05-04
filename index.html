@@ -12,8 +12,11 @@
 <body>
     <nav class="navbar">
         <div class="logo-container">
-            <h1><span class="day">DAY</span><span class="fit">F</span><img src="barra.png" class="logo"><span class="fit">T</span></h1>
+            <h1><span class="day">DAY</span><span class="fit">F</span><img src="/SiteDayFit/img/barra.png" class="logo"><span class="fit">T</span></h1>
         </div>
+
+        <div class="hamburguer-menu" onclick="toggleMenu()">☰</div>
+
         <div class="nav-links">
             <a href="index.html" class="academias">Academias</a>
             <a href="#">Sobre</a>
@@ -33,7 +36,7 @@
             <button class="botao2">Mais Informações</button>
         </div>
         <div class="paragrafo">
-            <img src="foto.png" alt="Foto da academia" class="Fotomain">
+            <img src="/SiteDayFit/img/foto.png" alt="Foto da academia" class="Fotomain">
           
             <div class="paragrafo1">
               <h2 class="titulo">Por que escolher a&nbsp;<span class="destaquetitulo">DayFit?</span></h2>
@@ -57,12 +60,12 @@
             <h1 class="titulocontatos">Contatos da <span class="destaquetitulo">DayFit Centro</span></h1>
             
             <div class="contato-item">
-              <img src="telefone.png" alt="telefone" class="logotelefone">
+              <img src="/SiteDayFit/img/telefone.png" alt="telefone" class="logotelefone">
               <p>34 37008039</p>
             </div>
       
             <div class="contato-item">
-              <img src="zap.png" alt="zap" class="logozap">
+              <img src="/SiteDayFit/img/zap.png" alt="zap" class="logozap">
               <p>34 999084774</p>
             </div>
           </div>
@@ -71,17 +74,22 @@
             <h1 class="titulocontatos">Contatos da <span class="destaquetitulo">DayFit 2</span></h1>
             
             <div class="contato-item">
-              <img src="telefone.png" alt="telefone" class="logotelefone">
+              <img src="/SiteDayFit/img/telefone.png" alt="telefone" class="logotelefone">
               <p>34 30610290</p>
             </div>
       
             <div class="contato-item">
-              <img src="zap.png" alt="zap" class="logozap">
+              <img src="/SiteDayFit/img/zap.png" alt="zap" class="logozap">
               <p>34 999850290</p>
             </div>
           </div>
         </div>
       </footer>
-      
+      <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-links');
+            menu.classList.toggle('active');
+        }
+      </script>
 </body>
 </html>
