@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Página Principal</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <h1><span class="day">DAY</span><span class="fit">F</span><img src="/SiteDayFit/img/barra.png" class="logo"><span class="fit">T</span></h1>
+        </div>
+
+        <div class="hamburguer-menu" onclick="toggleMenu()">☰</div>
+
+        <div class="nav-links">
+            <a href="index.html" class="academias">Academias</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contatos</a>
+            <a href="#">Avaliação</a>
+            <a href="#">Dicas</a>
+        </div>
+    </nav>
+    <main class="main">
+        <h2 class="texto">Escolha a academia que fique melhor para você</h2>
+        <div class="unidade"> 
+            <p class="p">Unidade Day Fit 1 - localizada no centro</p>
+            <button class="botao1">Mais Informações</button>
+        </div>
+        <div class="unidade">
+            <p class="p">Unidade Day Fit 2 - localizada no bairro Caiçaras</p>
+            <button class="botao2">Mais Informações</button>
+        </div>
+        <div class="paragrafo">
+            <img src="/SiteDayFit/img/foto.png" alt="Foto da academia" class="Fotomain">
+          
+            <div class="paragrafo1">
+              <h2 class="titulo">Por que escolher a&nbsp;<span class="destaquetitulo">DayFit?</span></h2>
+          
+              <p><span class="destaque">Estrutura Completa</span> – Nossa academia conta com equipamentos modernos e variados para atender a todos os tipos de treinos, desde musculação até funcional e aeróbicos.</p>
+          
+              <p><span class="destaque">Profissionais Qualificados</span> – Nossa equipe de instrutores está sempre disponível para te orientar e ajudar a alcançar seus objetivos de forma segura e eficiente.</p>
+          
+              <p><span class="destaque">Horários Flexíveis</span> – Sabemos que sua rotina é corrida! Por isso, oferecemos horários amplos para que você possa treinar no momento que for mais conveniente para você.</p>
+          
+              <p><span class="destaque">Custo-Benefício Incrível</span> – Oferecemos planos acessíveis sem abrir mão da qualidade, para que você possa cuidar da sua saúde sem pesar no bolso.</p>
+          
+              <p><span class="destaque">Treinos Personalizados</span> – Quer emagrecer, ganhar massa muscular ou melhorar sua resistência? Na Day Fit, você encontra planos de treino adaptados às suas necessidades.</p>
+            </div>
+          </div>
+    </main>
+
+    <footer>
+        <div class="rodape">
+          <div class="Informacoes">
+            <h1 class="titulocontatos">Contatos da <span class="destaquetitulo">DayFit Centro</span></h1>
+            
+            <div class="contato-item">
+              <img src="/SiteDayFit/img/telefone.png" alt="telefone" class="logotelefone">
+              <p>34 37008039</p>
+            </div>
+      
+            <div class="contato-item">
+              <img src="/SiteDayFit/img/zap.png" alt="zap" class="logozap">
+              <p>34 999084774</p>
+            </div>
+          </div>
+      
+          <div class="Informacoes2">
+            <h1 class="titulocontatos">Contatos da <span class="destaquetitulo">DayFit 2</span></h1>
+            
+            <div class="contato-item">
+              <img src="/SiteDayFit/img/telefone.png" alt="telefone" class="logotelefone">
+              <p>34 30610290</p>
+            </div>
+      
+            <div class="contato-item">
+              <img src="/SiteDayFit/img/zap.png" alt="zap" class="logozap">
+              <p>34 999850290</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-links');
+            menu.classList.toggle('active');
+        }
+      </script>
+</body>
+</html>
