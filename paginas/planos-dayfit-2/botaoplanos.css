@@ -1,0 +1,27 @@
+.botao {
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+}
+
+.plano-padrao {
+    border-radius: 10px;
+    display: flex;
+    border: solid #FCBC04 2px;
+    width: 400px;
+}
+
+.ativo {
+    background-color: #FCBC04;
+}
+
+.botao-centralizar {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+.mapa {
+    background-color: #FCBC04;
+    height: 400px;
+}
+
+.titulo-mapa {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mapa-centralizar {
+    display: flex;
+    justify-content: center;
+}

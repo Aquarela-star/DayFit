@@ -1,0 +1,29 @@
+.sessao-exercicios {
+    background-color: black;
+    height: 300px;
+}
+
+.titulo-exercicio {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.subtitulo-exercicio {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.container-exercicios {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.img-exercicio {
+    padding-top: 25px;
+    height: 100px;
+}

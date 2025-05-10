@@ -1,0 +1,30 @@
+.sessao-contatos {
+    background-color: black;
+    height: 200px;
+}
+
+.img-contatos {
+    height: 30px;
+    padding-right: 20px;
+}
+
+.alinhar-contatos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+button {
+    all: unset;
+    color: white;
+}
+
+.titulo-contatos {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
