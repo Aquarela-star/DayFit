@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Texto informativo */
+.info {
+  background-color: #fff;
+  color: #000;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.info h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.info .item {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.info h2 span {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.info p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Formulário */
+.formulario {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.form-container {
+  background-color: #ffc107;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.form-container label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-container textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form-container button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: white;
+  color: #ffc107;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-container button:hover {
+  background-color: #f0f0f0;
+}
